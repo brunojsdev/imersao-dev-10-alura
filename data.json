@@ -1,0 +1,749 @@
+[
+  {
+    "nome": "Bulbasaur",
+    "tipo": "Grama e Venenoso",
+    "numero": "0001",
+    "descrição": "Pokémon Semente. Calmo e leal. Carrega uma semente nas costas que cresce conforme ele evolui, absorvendo energia solar.",
+    "geração": 1,
+    "link": "https://pokemondb.net/pokedex/bulbasaur"
+  },
+  {
+    "nome": "Ivysaur",
+    "tipo": "Grama e Venenoso",
+    "numero": "0002",
+    "descrição": "Pokémon Semente. O bulbo em suas costas cresce ao absorver nutrientes. Quando está pronto para florescer, libera um aroma doce.",
+    "geração": 1,
+    "link": "https://pokemondb.net/pokedex/ivysaur"
+  },
+  {
+    "nome": "Venusaur",
+    "tipo": "Grama e Venenoso",
+    "numero": "0003",
+    "descrição": "Pokémon Semente. A flor em suas costas atrai outros Pokémon com seu aroma. Usa a luz solar como fonte de energia.",
+    "geração": 1,
+    "link": "https://pokemondb.net/pokedex/venusaur"
+  },
+  {
+    "nome": "Charmander",
+    "tipo": "Fogo",
+    "numero": "0004",
+    "descrição": "Pokémon Lagarto. Curioso e determinado. O fogo em sua cauda reflete sua saúde e vida; se apagar, ele morre.",
+    "geração": 1,
+    "link": "https://pokemondb.net/pokedex/charmander"
+  },
+  {
+    "nome": "Charmeleon",
+    "tipo": "Fogo",
+    "numero": "0005",
+    "descrição": "Pokémon Chama. De temperamento quente, busca oponentes fortes. Fica agressivo e lança chamas azuladas quando animado.",
+    "geração": 1,
+    "link": "https://pokemondb.net/pokedex/charmeleon"
+  },
+  {
+    "nome": "Charizard",
+    "tipo": "Fogo e Voador",
+    "numero": "0006",
+    "descrição": "Pokémon Chama. Voa pelos céus em busca de oponentes poderosos. Seu fogo é tão quente que pode derreter rochas.",
+    "geração": 1,
+    "link": "https://pokemondb.net/pokedex/charizard"
+  },
+
+  {
+    "nome": "Squirtle",
+    "tipo": "Água",
+    "numero": "0007",
+    "descrição": "Pokémon Tartaruguinha. Brincalhão e confiante. Seu casco é ótimo para defesa e para deslizar na água.",
+    "geração": 1,
+    "link": "https://pokemondb.net/pokedex/squirtle"
+  },
+  {
+    "nome": "Wartortle",
+    "tipo": "Água",
+    "numero": "0008",
+    "descrição": "Pokémon Tartaruga. É um símbolo de longevidade. Sua cauda peluda armazena ar para longos mergulhos subaquáticos.",
+    "geração": 1,
+    "link": "https://pokemondb.net/pokedex/wartortle"
+  },
+  {
+    "nome": "Blastoise",
+    "tipo": "Água",
+    "numero": "0009",
+    "descrição": "Pokémon Marisco. Os canhões de água em seu casco podem disparar jatos com força suficiente para perfurar aço.",
+    "geração": 1,
+    "link": "https://pokemondb.net/pokedex/blastoise"
+  },
+  {
+    "nome": "Pichu",
+    "tipo": "Elétrico",
+    "numero": "0172",
+    "descrição": "Pokémon Ratinho. Ainda é inexperiente em armazenar eletricidade e pode se chocar acidentalmente quando está feliz ou assustado.",
+    "geração": 2,
+    "link": "https://pokemondb.net/pokedex/pichu"
+  },
+  {
+    "nome": "Pikachu",
+    "tipo": "Elétrico",
+    "numero": "0025",
+    "descrição": "Pokémon Rato Elétrico, Energético e teimoso. Armazena eletricidade nas bochechas e é o ícone da franquia.",
+    "geração": 1,
+    "link": "https://pokemondb.net/pokedex/pikachu"
+  },
+  {
+    "nome": "Raichu",
+    "tipo": "Elétrico",
+    "numero": "0026",
+    "descrição": "Pokémon Rato. Sua longa cauda serve como um fio terra para se proteger de sua própria eletricidade de alta voltagem.",
+    "geração": 1,
+    "link": "https://pokemondb.net/pokedex/raichu"
+  },
+  {
+    "nome": "Eevee",
+    "tipo": "Normal",
+    "numero": "0133",
+    "descrição": "Pokémon Evolução, É geneticamente instável, permitindo que evolua para oito formas diferentes (as Eeveelutions) dependendo das condições.",
+    "geração": 1,
+    "link": "https://pokemondb.net/pokedex/eevee"
+  },
+  {
+    "nome": "Vaporeon",
+    "tipo": "Água",
+    "numero": "0134",
+    "descrição": "Pokémon Jato de Bolhas. Sua composição celular é semelhante às moléculas de água, permitindo que ele se dissolva e se torne invisível na água.",
+    "geração": 1,
+    "link": "https://pokemondb.net/pokedex/vaporeon"
+  },
+  {
+    "nome": "Jolteon",
+    "tipo": "Elétrico",
+    "numero": "0135",
+    "descrição": "Pokémon Relâmpago. Acumula íons negativos na atmosfera para lançar raios de 10.000 volts.",
+    "geração": 1,
+    "link": "https://pokemondb.net/pokedex/jolteon"
+  },
+  {
+    "nome": "Flareon",
+    "tipo": "Fogo",
+    "numero": "0136",
+    "descrição": "Pokémon Chama. Armazena ar em sua bolsa de chamas interna e o aquece a temperaturas de até 1.700 graus Celsius.",
+    "geração": 1,
+    "link": "https://pokemondb.net/pokedex/flareon"
+  },
+  {
+    "nome": "Espeon",
+    "tipo": "Psíquico",
+    "numero": "0196",
+    "descrição": "Pokémon Sol. Usa o pelo fino em seu corpo para sentir correntes de ar e prever os movimentos do oponente.",
+    "geração": 2,
+    "link": "https://pokemondb.net/pokedex/espeon"
+  },
+  {
+    "nome": "Umbreon",
+    "tipo": "Sombrio",
+    "numero": "0197",
+    "descrição": "Pokémon Luar. Os anéis em seu corpo brilham quando ele está excitado ou sob a luz da lua.",
+    "geração": 2,
+    "link": "https://pokemondb.net/pokedex/umbreon"
+  },
+  {
+    "nome": "Leafeon",
+    "tipo": "Grama",
+    "numero": "0470",
+    "descrição": "Pokémon Verdejante. Sua estrutura celular é semelhante à das plantas, permitindo que realize fotossíntese.",
+    "geração": 4,
+    "link": "https://pokemondb.net/pokedex/leafeon"
+  },
+  {
+    "nome": "Glaceon",
+    "tipo": "Gelo",
+    "numero": "0471",
+    "descrição": "Pokémon Neve Fresca. Pode controlar sua temperatura corporal para congelar a umidade do ar e criar pó de diamante.",
+    "geração": 4,
+    "link": "https://pokemondb.net/pokedex/glaceon"
+  },
+  {
+    "nome": "Sylveon",
+    "tipo": "Fada",
+    "numero": "0700",
+    "descrição": "Pokémon Entrelaçador. Emite uma aura calmante de suas fitas para parar as lutas.",
+    "geração": 6,
+    "link": "https://pokemondb.net/pokedex/sylveon"
+  },
+
+  {
+    "nome": "Chikorita",
+    "tipo": "Grama",
+    "numero": "0152",
+    "descrição": "Pokémon Folha, tipo Grama. Pacífica e gentil. O broto em sua cabeça emite uma fragrância suave que acalma as pessoas.",
+    "geração": 2,
+    "link": "https://pokemondb.net/pokedex/chikorita"
+  },
+  {
+    "nome": "Bayleef",
+    "tipo": "Grama",
+    "numero": "0153",
+    "descrição": "Pokémon Folha. O aroma que sai das folhas em seu pescoço contém uma substância que estimula a vontade de lutar.",
+    "geração": 2,
+    "link": "https://pokemondb.net/pokedex/bayleef"
+  },
+  {
+    "nome": "Meganium",
+    "tipo": "Grama",
+    "numero": "0154",
+    "descrição": "Pokémon Erva. O aroma de suas pétalas acalma as emoções. Em batalha, libera uma fragrância que entorpece o espírito de luta do oponente.",
+    "geração": 2,
+    "link": "https://pokemondb.net/pokedex/meganium"
+  },
+
+  {
+    "nome": "Cyndaquil",
+    "tipo": "Fogo",
+    "numero": "0155",
+    "descrição": "Pokémon Rato de Fogo. Tímido e cauteloso. Libera chamas nas costas quando está surpreso, irritado ou pronto para a batalha.",
+    "geração": 2,
+    "link": "https://pokemondb.net/pokedex/cyndaquil"
+  },
+  {
+    "nome": "Quilava",
+    "tipo": "Fogo",
+    "numero": "0156",
+    "descrição": "Pokémon Vulcão. intimida os oponentes com o calor de suas chamas. O pelo em suas costas é incombustível.",
+    "geração": 2,
+    "link": "https://pokemondb.net/pokedex/quilava"
+  },
+  {
+    "nome": "Typhlosion",
+    "tipo": "Fogo",
+    "numero": "0157",
+    "descrição": "Pokémon Vulcão. Cria explosões de fogo que queimam tudo. Esconde-se atrás de uma névoa de calor que cria com suas chamas.",
+    "geração": 2,
+    "link": "https://pokemondb.net/pokedex/typhlosion"
+  },
+  {
+    "nome": "Totodile",
+    "tipo": "Água",
+    "numero": "0160",
+    "descrição": "Pokémon Crocodilo de Água. Animado e comilão. Tem uma mordida forte, mas precisa de treino para controlar sua energia exuberante.",
+    "geração": 2,
+    "link": "https://pokemondb.net/pokedex/totodile"
+  },
+  {
+    "nome": "Croconaw",
+    "tipo": "Água",
+    "numero": "0159",
+    "descrição": "Pokémon Grande Mandíbula. Uma vez que morde, não solta até que suas presas se quebrem. Novas presas crescem rapidamente.",
+    "geração": 2,
+    "link": "https://pokemondb.net/pokedex/croconaw"
+  },
+  {
+    "nome": "Feraligatr",
+    "tipo": "Água",
+    "numero": "0158",
+    "descrição": "Pokémon Grande Mandíbula. intimida os oponentes abrindo sua enorme boca. Em batalha, chuta o chão para se impulsionar em alta velocidade.",
+    "geração": 2,
+    "link": "https://pokemondb.net/pokedex/feraligatr"
+  },
+  {
+    "nome": "Treecko",
+    "tipo": "Grama",
+    "numero": "0252",
+    "descrição": "Pokémon Lagarto de Madeira. Calmo e controlado, nunca entra em pânico. Seus pés têm pequenos espinhos que lhe permitem escalar paredes verticais.",
+    "geração": 3,
+    "link": "https://pokemondb.net/pokedex/treecko"
+  },
+  {
+    "nome": "Grovyle",
+    "tipo": "Grama",
+    "numero": "0253",
+    "descrição": "Pokémon Lagarto de Madeira. Os músculos de suas coxas são altamente desenvolvidos, permitindo-lhe saltar de galho em galho na selva.",
+    "geração": 3,
+    "link": "https://pokemondb.net/pokedex/grovyle"
+  },
+  {
+    "nome": "Sceptile",
+    "tipo": "Grama",
+    "numero": "0254",
+    "descrição": "Pokémon Floresta. As folhas que crescem em seu corpo são extremamente afiadas. Pode saltar agilmente para atacar os inimigos por cima e por trás.",
+    "geração": 3,
+    "link": "https://pokemondb.net/pokedex/sceptile"
+  },
+  {
+    "nome": "Torchic",
+    "tipo": "Fogo",
+    "numero": "0255",
+    "descrição": "Pokémon Pintinho. Segue seu treinador com passos vacilantes. Guarda uma chama dentro de si, então abraçá-lo é muito quente.",
+    "geração": 3,
+    "link": "https://pokemondb.net/pokedex/torchic"
+  },
+  {
+    "nome": "Combusken",
+    "tipo": "Fogo e Lutador",
+    "numero": "0256",
+    "descrição": "Pokémon Galo Jovem. Suas pernas possuem grande poder destrutivo. Pode desferir 10 chutes por segundo.",
+    "geração": 3,
+    "link": "https://pokemondb.net/pokedex/combusken"
+  },
+  {
+    "nome": "Blaziken",
+    "tipo": "Fogo e Lutador",
+    "numero": "0257",
+    "descrição": "Pokémon Chama. Em batalha, Blaziken lança chamas de seus pulsos e tornozelos. Seus socos e chutes deixam os oponentes carbonizados.",
+    "geração": 3,
+    "link": "https://pokemondb.net/pokedex/blaziken"
+  },
+  {
+    "nome": "Mudkip",
+    "tipo": "Água",
+    "numero": "0258",
+    "descrição": "Pokémon Peixe de Lama. Usa a barbatana na cabeça como um radar. É forte, apesar de seu tamanho pequeno, e pode esmagar grandes rochas.",
+    "geração": 3,
+    "link": "https://pokemondb.net/pokedex/mudkip"
+  },
+  {
+    "nome": "Marshtomp",
+    "tipo": "Água e Terrestre",
+    "numero": "0259",
+    "descrição": "Pokémon Peixe de Lama. Seu corpo é coberto por uma fina película pegajosa que o impede de secar quando está em terra.",
+    "geração": 3,
+    "link": "https://pokemondb.net/pokedex/marshtomp"
+  },
+  {
+    "nome": "Swampert",
+    "tipo": "Água e Terrestre",
+    "numero": "0260",
+    "descrição": "Pokémon Peixe de Lama. Tem força para arrastar facilmente uma rocha de mais de uma tonelada. Tem uma visão poderosa que lhe permite ver em águas turvas.",
+    "geração": 3,
+    "link": "https://pokemondb.net/pokedex/swampert"
+  },
+  {
+    "nome": "Turtwig",
+    "tipo": "Grama",
+    "numero": "0387",
+    "descrição": "Pokémon Folhinha. O broto em sua cabeça faz fotossíntese. Fica murcho quando o Pokémon está com sede.",
+    "geração": 4,
+    "link": "https://pokemondb.net/pokedex/turtwig"
+  },
+  {
+    "nome": "Grotle",
+    "tipo": "Grama",
+    "numero": "0388",
+    "descrição": "Pokémon Bosque. Sabe onde encontrar água pura e carrega outros Pokémon em suas costas para esses locais.",
+    "geração": 4,
+    "link": "https://pokemondb.net/pokedex/grotle"
+  },
+  {
+    "nome": "Torterra",
+    "tipo": "Grama e Terrestre",
+    "numero": "0389",
+    "descrição": "Pokémon Continente. Pequenos Pokémon às vezes se reúnem em suas costas para construir ninhos.",
+    "geração": 4,
+    "link": "https://pokemondb.net/pokedex/torterra"
+  },
+  {
+    "nome": "Chimchar",
+    "tipo": "Fogo",
+    "numero": "0390",
+    "descrição": "Pokémon Chimpanzé. Ágil e escalador de penhascos. O fogo em sua cauda queima fortemente quando ele está animado, mas se apaga quando ele está cansado.",
+    "geração": 4,
+    "link": "https://pokemondb.net/pokedex/chimchar"
+  },
+  {
+    "nome": "Monferno",
+    "tipo": "Fogo e Lutador",
+    "numero": "0391",
+    "descrição": "Pokémon Brincalhão. Controla a intensidade do fogo em sua cauda para manter os oponentes à distância.",
+    "geração": 4,
+    "link": "https://pokemondb.net/pokedex/monferno"
+  },
+  {
+    "nome": "Infernape",
+    "tipo": "Fogo e Lutador",
+    "numero": "0392",
+    "descrição": "Pokémon Chama. Usa um estilo de luta único com todos os seus membros. Sua coroa de fogo indica sua natureza ardente.",
+    "geração": 4,
+    "link": "https://pokemondb.net/pokedex/infernape"
+  },
+  {
+    "nome": "Piplup",
+    "tipo": "Água",
+    "numero": "0393",
+    "descrição": "Pokémon Pinguim. Orgulhoso e odeia aceitar comida de pessoas. É um nadador habilidoso, mergulhando por mais de 10 minutos para caçar.",
+    "geração": 4,
+    "link": "https://pokemondb.net/pokedex/piplup"
+  },
+  {
+    "nome": "Prinplup",
+    "tipo": "Água",
+    "numero": "0394",
+    "descrição": "Pokémon Pinguim. Vive sozinho, longe dos outros. Cada um acredita ser o mais importante.",
+    "geração": 4,
+    "link": "https://pokemondb.net/pokedex/prinplup"
+  },
+  {
+    "nome": "Empoleon",
+    "tipo": "Água e Aço",
+    "numero": "0395",
+    "descrição": "Pokémon Imperador. As três pontas em seu bico são um símbolo de poder. O líder do bando tem as maiores pontas.",
+    "geração": 4,
+    "link": "https://pokemondb.net/pokedex/empoleon"
+  },
+  {
+    "nome": "Snivy",
+    "tipo": "Grama",
+    "numero": "0495",
+    "descrição": "Pokémon Serpente de Grama. Calmo e inteligente. Fica mais ágil quando exposto à luz solar. A folha em sua cauda murcha quando perde energia.",
+    "geração": 5,
+    "link": "https://pokemondb.net/pokedex/snivy"
+  },
+  {
+    "nome": "Servine",
+    "tipo": "Grama",
+    "numero": "0496",
+    "descrição": "Pokémon Serpente de Grama. Desliza pelo chão como se não tivesse atrito, confundindo os inimigos com sua velocidade.",
+    "geração": 5,
+    "link": "https://pokemondb.net/pokedex/servine"
+  },
+  {
+    "nome": "Serperior",
+    "tipo": "Grama",
+    "numero": "0497",
+    "descrição": "Pokémon Realeza. Para os inimigos com um brilho nobre. Ele só luta a sério contra oponentes muito fortes.",
+    "geração": 5,
+    "link": "https://pokemondb.net/pokedex/serperior"
+  },
+  {
+    "nome": "Tepig",
+    "tipo": "Fogo",
+    "numero": "0498",
+    "descrição": "Pokémon Porco de Fogo. Adora comer frutas vermelhas assadas. Lança bolas de fogo pelo focinho, mas às vezes espirra brasas.",
+    "geração": 5,
+    "link": "https://pokemondb.net/pokedex/tepig"
+  },
+  {
+    "nome": "Pignite",
+    "tipo": "Fogo e Lutador",
+    "numero": "0499",
+    "descrição": "Pokémon Porco de Fogo. Quanto mais come, mais combustível tem para seu fogo interno, aumentando a potência de seus movimentos.",
+    "geração": 5,
+    "link": "https://pokemondb.net/pokedex/pignite"
+  },
+  {
+    "nome": "Emboar",
+    "tipo": "Fogo e Lutador",
+    "numero": "0500",
+    "descrição": "Pokémon Mega Porco de Fogo. Pode lançar socos de fogo com sua barba em chamas. Se preocupa muito com seus amigos.",
+    "geração": 5,
+    "link": "https://pokemondb.net/pokedex/emboar"
+  },
+  {
+    "nome": "Oshawott",
+    "tipo": "Água",
+    "numero": "0501",
+    "descrição": "Pokémon Lontra Marinha. Luta usando a concha em sua barriga, que também serve para quebrar frutas duras. É feito do mesmo material que suas garras.",
+    "geração": 5,
+    "link": "https://pokemondb.net/pokedex/oshawott"
+  },
+  {
+    "nome": "Dewott",
+    "tipo": "Água",
+    "numero": "0502",
+    "descrição": "Pokémon Disciplina. Cada Dewott tem sua própria técnica de usar suas conchas duplas. O treinamento rigoroso é a chave para dominar as conchas.",
+    "geração": 5,
+    "link": "https://pokemondb.net/pokedex/dewott"
+  },
+  {
+    "nome": "Samurott",
+    "tipo": "Água",
+    "numero": "0503",
+    "descrição": "Pokémon Formidável. Um único golpe de sua espada de concha pode derrotar um oponente. Intimida os inimigos com um grito silencioso.",
+    "geração": 5,
+    "link": "https://pokemondb.net/pokedex/samurott"
+  },
+  {
+    "nome": "Chespin",
+    "tipo": "Grama",
+    "numero": "0650",
+    "descrição": "Pokémon Ouriço-castanha. O casco de madeira em sua cabeça protege-o de ataques. Pode endurecer os espinhos para se defender.",
+    "geração": 6,
+    "link": "https://pokemondb.net/pokedex/chespin"
+  },
+  {
+    "nome": "Quilladin",
+    "tipo": "Grama",
+    "numero": "0651",
+    "descrição": "Pokémon Casco Espinhoso. Quando se defende, os espinhos em seu casco são tão duros que podem desviar um caminhão.",
+    "geração": 6,
+    "link": "https://pokemondb.net/pokedex/quilladin"
+  },
+  {
+    "nome": "Chesnaught",
+    "tipo": "Grama e Lutador",
+    "numero": "0652",
+    "descrição": "Pokémon Casco Armado. Sua força é tão grande que pode virar um tanque de 50 toneladas. Protege seus aliados com seu corpo.",
+    "geração": 6,
+    "link": "https://pokemondb.net/pokedex/chesnaught"
+  },
+  {
+    "nome": "Fennekin",
+    "tipo": "Fogo",
+    "numero": "0653",
+    "descrição": "Pokémon Raposa. Come galhos para se manter energizado. Suas orelhas liberam ar quente que pode chegar a mais de 200°C.",
+    "geração": 6,
+    "link": "https://pokemondb.net/pokedex/fennekin"
+  },
+  {
+    "nome": "Braixen",
+    "tipo": "Fogo",
+    "numero": "0654",
+    "descrição": "Pokémon Raposa. Mantém um galho em sua cauda que acende com o atrito. O fogo é usado para atacar e se comunicar.",
+    "geração": 6,
+    "link": "https://pokemondb.net/pokedex/braixen"
+  },
+  {
+    "nome": "Delphox",
+    "tipo": "Fogo e Psíquico",
+    "numero": "0655",
+    "descrição": "Pokémon Raposa. Pode ver o futuro olhando para a chama em seu galho. Seus poderes psíquicos podem criar um vórtice de fogo de 3.000 graus Celsius.",
+    "geração": 6,
+    "link": "https://pokemondb.net/pokedex/delphox"
+  },
+  {
+    "nome": "Froakie",
+    "tipo": "Água",
+    "numero": "0656",
+    "descrição": "Pokémon Sapo-bolha. Protege seu corpo com bolhas flexíveis nas costas. Apesar de parecer distraído, está sempre atento ao seu redor.",
+    "geração": 6,
+    "link": "https://pokemondb.net/pokedex/froakie"
+  },
+  {
+    "nome": "Frogadier",
+    "tipo": "Água",
+    "numero": "0657",
+    "descrição": "Pokémon Sapo-bolha. Pode lançar pedras envoltas em bolhas com precisão suficiente para acertar uma lata a 30 metros de distância.",
+    "geração": 6,
+    "link": "https://pokemondb.net/pokedex/frogadier"
+  },
+  {
+    "nome": "Greninja",
+    "tipo": "Água e Sombrio",
+    "numero": "0658",
+    "descrição": "Pokémon Ninja. Cria estrelas de arremesso com água comprimida. Quando as gira e lança em alta velocidade, essas estrelas podem cortar metal.",
+    "geração": 6,
+    "link": "https://pokemondb.net/pokedex/greninja"
+  },
+  {
+    "nome": "Rowlet",
+    "tipo": "Grama e Voador",
+    "numero": "0722",
+    "descrição": "Pokémon Coruja de Grama. Noturno. Pode girar sua cabeça quase 180 graus para olhar para trás e atacar silenciosamente com suas penas afiadas.",
+    "geração": 7,
+    "link": "https://pokemondb.net/pokedex/rowlet"
+  },
+  {
+    "nome": "Dartrix",
+    "tipo": "Grama e Voador",
+    "numero": "0723",
+    "descrição": "Pokémon Lâmina de Pena. É extremamente sensível à presença de outros, sendo capaz de detectar oponentes por trás e lançar penas para atacá-los sem se virar.",
+    "geração": 7,
+    "link": "https://pokemondb.net/pokedex/dartrix"
+  },
+  {
+    "nome": "Decidueye",
+    "tipo": "Grama e Fantasma",
+    "numero": "0724",
+    "descrição": "Pokémon Flecha de Pena. Dispara penas de suas asas como flechas com uma precisão incrível, podendo acertar um seixo a 100 metros de distância.",
+    "geração": 7,
+    "link": "https://pokemondb.net/pokedex/decidueye"
+  },
+  {
+    "nome": "Litten",
+    "tipo": "Fogo",
+    "numero": "0725",
+    "descrição": "Pokémon Gato de Fogo. Lógico e calmo. Seu pelo é rico em óleos inflamáveis, e ele se limpa lambendo-se e usando as bolas de pelo como combustível para ataques.",
+    "geração": 7,
+    "link": "https://pokemondb.net/pokedex/litten"
+  },
+  {
+    "nome": "Torracat",
+    "tipo": "Fogo",
+    "numero": "0726",
+    "descrição": "Pokémon Gato de Fogo. O sino em seu pescoço é um órgão de chamas. Quando Torracat cospe fogo, o sino soa.",
+    "geração": 7,
+    "link": "https://pokemondb.net/pokedex/torracat"
+  },
+  {
+    "nome": "Incineroar",
+    "tipo": "Fogo e Sombrio",
+    "numero": "0727",
+    "descrição": "Pokémon Calcanhar. Seu espírito de luta aumenta quando a multidão está animada. As chamas que produz formam um cinto em sua cintura.",
+    "geração": 7,
+    "link": "https://pokemondb.net/pokedex/incineroar"
+  },
+  {
+    "nome": "Popplio",
+    "tipo": "Água",
+    "numero": "0728",
+    "descrição": "Pokémon Leão Marinho. Brincalhão e trabalhador. Pode criar balões de água pelo nariz e usá-los em batalhas acrobáticas.",
+    "geração": 7,
+    "link": "https://pokemondb.net/pokedex/popplio"
+  },
+  {
+    "nome": "Brionne",
+    "tipo": "Água",
+    "numero": "0729",
+    "descrição": "Pokémon Pop Star. Aprende a dançar imitando outros membros de sua colônia. Pode criar balões de água e usá-los para atacar seus oponentes.",
+    "geração": 7,
+    "link": "https://pokemondb.net/pokedex/brionne"
+  },
+  {
+    "nome": "Primarina",
+    "tipo": "Água e Fada",
+    "numero": "0730",
+    "descrição": "Pokémon Solista. Controla balões de água com sua voz. As melodias que canta foram passadas de geração em geração.",
+    "geração": 7,
+    "link": "https://pokemondb.net/pokedex/primarina"
+  },
+  {
+    "nome": "Grookey",
+    "tipo": "Grama",
+    "numero": "0810",
+    "descrição": "Pokémon Chimpanzé. Cheio de curiosidade. O bastão que ele carrega ganhou poderes especiais após ser exposto à energia dentro do corpo de Grookey.",
+    "geração": 8,
+    "link": "https://pokemondb.net/pokedex/grookey"
+  },
+  {
+    "nome": "Thwackey",
+    "tipo": "Grama",
+    "numero": "0811",
+    "descrição": "Pokémon Baterista. O ritmo que ele toca com seus dois bastões gera ondas sonoras que podem revitalizar plantas.",
+    "geração": 8,
+    "link": "https://pokemondb.net/pokedex/thwackey"
+  },
+  {
+    "nome": "Rillaboom",
+    "tipo": "Grama",
+    "numero": "0812",
+    "descrição": "Pokémon Baterista. Controla as raízes de seu toco de bateria para gerar batidas poderosas que abalam seus oponentes.",
+    "geração": 8,
+    "link": "https://pokemondb.net/pokedex/rillaboom"
+  },
+  {
+    "nome": "Scorbunny",
+    "tipo": "Fogo",
+    "numero": "0813",
+    "descrição": "Pokémon Coelho. Sempre correndo por aí, cheio de energia. Suas patas traseiras podem ficar tão quentes que deixam o chão em chamas.",
+    "geração": 8,
+    "link": "https://pokemondb.net/pokedex/scorbunny"
+  },
+  {
+    "nome": "Raboot",
+    "tipo": "Fogo",
+    "numero": "0814",
+    "descrição": "Pokémon Coelho. Pratica suas habilidades de chute chutando frutas que caem das árvores. O pelo em seu corpo o protege do frio.",
+    "geração": 8,
+    "link": "https://pokemondb.net/pokedex/raboot"
+  },
+  {
+    "nome": "Cinderace",
+    "tipo": "Fogo",
+    "numero": "0815",
+    "descrição": "Pokémon Atacante. Chuta uma pedra para transformá-la em uma bola de fogo, que ele usa para atacar. É um jogador habilidoso.",
+    "geração": 8,
+    "link": "https://pokemondb.net/pokedex/cinderace"
+  },
+  {
+    "nome": "Sobble",
+    "tipo": "Água",
+    "numero": "0816",
+    "descrição": "Pokémon Lagarto de Água. Tímido. Suas lágrimas têm a potência de 100 cebolas, e ele as usa para fazer seus oponentes chorarem e fugir.",
+    "geração": 8,
+    "link": "https://pokemondb.net/pokedex/sobble"
+  },
+  {
+    "nome": "Drizzile",
+    "tipo": "Água",
+    "numero": "0817",
+    "descrição": "Pokémon Lagarto de Água. É um Pokémon cauteloso que cria armadilhas de água em seu território. É muito inteligente.",
+    "geração": 8,
+    "link": "https://pokemondb.net/pokedex/drizzile"
+  },
+  {
+    "nome": "Inteleon",
+    "tipo": "Água",
+    "numero": "0818",
+    "descrição": "Pokémon Agente Secreto. Tem várias habilidades ocultas, como atirar água de seus dedos e usar sua membrana nas costas para planar.",
+    "geração": 8,
+    "link": "https://pokemondb.net/pokedex/inteleon"
+  },
+  {
+    "nome": "Sprigatito",
+    "tipo": "Grama",
+    "numero": "0906",
+    "descrição": "Pokémon Gato de Grama. Carente de atenção. Libera um aroma doce que hipnotiza qualquer um por perto quando esfrega suas patas dianteiras.",
+    "geração": 9,
+    "link": "https://pokemondb.net/pokedex/sprigatito"
+  },
+  {
+    "nome": "Floragato",
+    "tipo": "Grama",
+    "numero": "0907",
+    "descrição": "Pokémon Gato de Grama. Usa seu pelo longo como um chicote para lutar. O botão de flor em seu peito floresce quando ele está feliz.",
+    "geração": 9,
+    "link": "https://pokemondb.net/pokedex/floragato"
+  },
+  {
+    "nome": "Meowscarada",
+    "tipo": "Grama e Sombrio",
+    "numero": "0908",
+    "descrição": "Pokémon Mágico. Usa um truque de mágica para fazer uma bomba de flores aparecer, que ele pode detonar para atacar seus oponentes.",
+    "geração": 9,
+    "link": "https://pokemondb.net/pokedex/meowscarada"
+  },
+  {
+    "nome": "Fuecoco",
+    "tipo": "Fogo",
+    "numero": "0909",
+    "descrição": "Pokémon Crocodilo de Fogo. Descontraído e adora comer. O calor que gera vaza de sua cabeça, e fica mais intenso quando ele se anima.",
+    "geração": 9,
+    "link": "https://pokemondb.net/pokedex/fuecoco"
+  },
+  {
+    "nome": "Crocalor",
+    "tipo": "Fogo",
+    "numero": "0910",
+    "descrição": "Pokémon Crocodilo de Fogo. A bola de fogo em sua cabeça muda de forma dependendo de suas emoções e vocalizações.",
+    "geração": 9,
+    "link": "https://pokemondb.net/pokedex/crocalor"
+  },
+  {
+    "nome": "Skeledirge",
+    "tipo": "Fogo e Fantasma",
+    "numero": "0911",
+    "descrição": "Pokémon Cantor. Seu canto é tão poderoso que pode queimar a alma de quem o ouve. O pássaro de fogo em sua cabeça é sua verdadeira forma.",
+    "geração": 9,
+    "link": "https://pokemondb.net/pokedex/skeledirge"
+  },
+  {
+    "nome": "Quaxly",
+    "tipo": "Água",
+    "numero": "0912",
+    "descrição": "Pokémon Patinho. Sério e arrumado. O gel secretado por suas penas repele água e sujeira, e ele odeia sujar a cabeça.",
+    "geração": 9,
+    "link": "https://pokemondb.net/pokedex/quaxly"
+  },
+  {
+    "nome": "Quaxwell",
+    "tipo": "Água",
+    "numero": "0913",
+    "descrição": "Pokémon Praticante. Treina diligentemente para aperfeiçoar seus chutes. Observa danças de terras distantes para incorporar em seu estilo de luta.",
+    "geração": 9,
+    "link": "https://pokemondb.net/pokedex/quaxwell"
+  },
+  {
+    "nome": "Quaquaval",
+    "tipo": "Água e Lutador",
+    "numero": "0914",
+    "descrição": "Pokémon Dançarino. Um único chute pode virar um caminhão. Suas penas na cauda são usadas para desferir ataques cortantes.",
+    "geração": 9,
+    "link": "https://pokemondb.net/pokedex/quaquaval"
+  }
+]
