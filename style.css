@@ -237,7 +237,7 @@ article a:hover {
 @media (max-width: 768px) {
   header {
     flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
-    justify-content: space-between; /* Espaça o botão de tema e a busca */
+    justify-content: center; /* Centraliza os blocos de conteúdo */
     height: auto; /* Altura automática para acomodar os itens */
     padding: 1rem;
   }
@@ -247,7 +247,6 @@ article a:hover {
     width: 100%; /* Ocupa a largura total */
     margin-left: 0; /* Remove a margem automática */
     margin-top: 1rem; /* Adiciona espaço acima da busca */
-    display: flex;
     justify-content: center;
   }
 
@@ -271,8 +270,18 @@ article a:hover {
 
   .footer {
     position: static; /* Rodapé deixa de ser fixo e rola com a página */
-    padding: 1rem;
+    padding: 0.75rem 1rem; /* Diminui o padding vertical */
     height: auto;
+  }
+
+  .footer-links {
+    flex-direction: column; /* Empilha os links verticalmente */
+    gap: 0.5rem; /* Diminui o espaçamento entre os links */
+  }
+
+  .footer-links a {
+    font-size: 1rem; /* Aumenta o tamanho da fonte para melhor leitura */
+    padding: 0.5rem; /* Adiciona área de clique */
   }
 }
 
