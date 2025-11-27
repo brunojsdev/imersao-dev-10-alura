@@ -244,14 +244,14 @@ article a:hover {
   header {
     flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
     justify-content: space-between; /* Alinha o bloco do título e o da busca */
-    height: auto; /* Altura automática para acomodar os itens */
-    padding: 0.75rem 1rem; /* Reduz o padding vertical */
+    height: auto;
+    padding: 0.5rem 1rem; /* DIMINUI DRASTICAMENTE O PADDING DO HEADER */
   }
 
   header div {
     order: 3; /* Manda a busca para a próxima linha */
     width: 100%; /* Ocupa a largura total */
-    margin-top: 0.5rem; /* Diminui o espaço entre as linhas do header */
+    margin-top: 0.5rem; /* DIMINUI O ESPAÇO ENTRE AS LINHAS */
     display: flex; /* Habilita flexbox para alinhar input e botão */
     align-items: center; /* Alinha verticalmente */
   }
@@ -260,19 +260,15 @@ article a:hover {
     font-size: 1.2rem; /* Tamanho da fonte do título */
   }
 
-  .theme-toggle-button {
-    width: 60px; /* Aumenta o tamanho do botão de tema */
-    height: 60px;
+  .theme-toggle-button,
+  #botao-busca {
+    width: 45px; /* DIMINUI E IGUALA O TAMANHO DOS BOTÕES */
+    height: 45px;
   }
 
   div input {
     width: 100%; /* Faz o input ocupar o espaço disponível */
     font-size: 1.1rem;
-  }
-
-  #botao-busca {
-    width: 45px; /* Diminui o tamanho do botão de busca */
-    height: 45px;
   }
 
   main {
@@ -285,14 +281,14 @@ article a:hover {
 
   .footer {
     position: static; /* Rodapé deixa de ser fixo e rola com a página */
-    padding: 1rem 1rem; /* Ajusta o padding para um visual mais limpo */
+    padding: 0.5rem 1rem; /* DIMINUI DRASTICAMENTE A ALTURA DO FOOTER */
     height: auto;
     flex-direction: column; /* Empilha os itens verticalmente */
-    gap: 1rem; /* Aumenta o espaço entre o texto (se houver) e os links */
+    gap: 0.5rem; /* DIMINUI O ESPAÇO ENTRE OS ITENS */
   }
 
   .footer-links {
-    gap: 30px; /* Aumenta o espaço entre os links "Github" e "Alura" */
+    gap: 20px; /* Ajusta o espaço entre os links */
   }
 }
 
