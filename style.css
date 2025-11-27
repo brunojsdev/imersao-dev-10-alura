@@ -261,8 +261,8 @@ article a:hover {
   }
 
   .theme-toggle-button {
-    width: 50px; /* Botão de tema ligeiramente maior */
-    height: 50px;
+    width: 60px; /* Botão de tema ligeiramente maior */
+    height: 60px;
   }
 
   #botao-busca {
