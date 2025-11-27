@@ -25,8 +25,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
   // Cria e insere o botão de tema
-  const h1 = document.querySelector("header h1");
-  if (h1) {
+  const headerMainContainer = document.querySelector(".header-main");
+  if (headerMainContainer) {
     const themeButton = document.createElement("button");
     themeButton.textContent = "Tema";
     themeButton.className = "theme-toggle-button";
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
     themeButton.addEventListener("click", () => {
       document.body.classList.toggle("light-theme");
     });
-    h1.insertAdjacentElement("afterend", themeButton);
+    headerMainContainer.prepend(themeButton); // Insere o botão ANTES do h1
   }
 
   // 2. Função para exibir os cards dos Pokémons
