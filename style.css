@@ -245,13 +245,13 @@ article a:hover {
     flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
     justify-content: space-between; /* Alinha o bloco do título e o da busca */
     height: auto;
-    padding: 0.5rem 1rem; /* DIMINUI DRASTICAMENTE O PADDING DO HEADER */
+    padding: 0.4rem 1rem; /* DIMINUI DRASTICAMENTE O PADDING DO HEADER */
   }
 
   header div {
     order: 3; /* Manda a busca para a próxima linha */
     width: 100%; /* Ocupa a largura total */
-    margin-top: 0.5rem; /* DIMINUI O ESPAÇO ENTRE AS LINHAS */
+    margin-top: 0.2rem; /* DIMINUI O ESPAÇO ENTRE AS LINHAS */
     display: flex; /* Habilita flexbox para alinhar input e botão */
     align-items: center; /* Alinha verticalmente */
   }
@@ -261,8 +261,8 @@ article a:hover {
   }
 
   .theme-toggle-button {
-    width: 60px; /* Botão de tema ligeiramente maior */
-    height: 60px;
+    width: 70px; /* Botão de tema ligeiramente maior */
+    height: 70px;
   }
 
   #botao-busca {
@@ -285,10 +285,10 @@ article a:hover {
 
   .footer {
     position: static; /* Rodapé deixa de ser fixo e rola com a página */
-    padding: 0.4rem 1rem; /* DIMINUI DRASTICAMENTE A ALTURA DO FOOTER */
+    padding: 0.3rem 1rem; /* DIMINUI DRASTICAMENTE A ALTURA DO FOOTER */
     height: auto;
     flex-direction: column; /* Empilha os itens verticalmente */
-    gap: 0.6rem; /* DIMINUI O ESPAÇO ENTRE OS ITENS */
+    gap: 0.9rem; /* DIMINUI O ESPAÇO ENTRE OS ITENS */
   }
 
   .footer-links {
