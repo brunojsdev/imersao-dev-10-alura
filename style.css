@@ -87,6 +87,7 @@ div input:focus {
   cursor: pointer; /* Muda o cursor para uma mão ao passar por cima */
   text-indent: -9999px; /* Esconde o texto do botão */
   transition: transform 0.2s ease, box-shadow 0.2s ease; /* Transição suave */
+  flex-shrink: 0; /* Impede que o botão seja espremido */
 }
 
 #botao-busca:hover {
@@ -237,7 +238,7 @@ article a:hover {
 @media (max-width: 768px) {
   header {
     flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
-    justify-content: center; /* Centraliza os blocos de conteúdo */
+    justify-content: space-between; /* Alinha os itens nas extremidades */
     height: auto; /* Altura automática para acomodar os itens */
     padding: 1rem;
   }
@@ -247,17 +248,28 @@ article a:hover {
     width: 100%; /* Ocupa a largura total */
     margin-left: 0; /* Remove a margem automática */
     margin-top: 1rem; /* Adiciona espaço acima da busca */
-    justify-content: center;
+    display: flex; /* Habilita flexbox para alinhar input e botão */
+    align-items: center; /* Alinha verticalmente */
   }
 
   header h1 {
     font-size: 1.2rem; /* Reduz um pouco a fonte do título */
   }
 
+  .theme-toggle-button {
+    width: 50px; /* Diminui o tamanho do botão de tema */
+    height: 50px;
+  }
+
   div input {
-    width: 100%; /* Input ocupa o espaço disponível */
-    max-width: 400px; /* Limita a largura máxima do input */
+    width: 100%; /* Input ocupa o espaço disponível no flex container */
     font-size: 1.1rem;
+    margin-right: 0.5rem; /* Adiciona espaço entre o input e o botão */
+  }
+
+  #botao-busca {
+    width: 45px; /* Diminui o tamanho do botão de busca */
+    height: 45px;
   }
 
   main {
