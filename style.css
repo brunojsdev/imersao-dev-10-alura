@@ -261,8 +261,8 @@ article a:hover {
   }
 
   .theme-toggle-button {
-    width: 45px; /* Diminui o tamanho do botão de tema */
-    height: 45px;
+    width: 50px; /* Aumenta um pouco o tamanho do botão de tema */
+    height: 50px;
   }
 
   div input {
@@ -285,8 +285,14 @@ article a:hover {
 
   .footer {
     position: static; /* Rodapé deixa de ser fixo e rola com a página */
-    padding: 1rem;
+    padding: 0.75rem 1rem; /* Diminui a altura (espaçamento vertical) */
     height: auto;
+    flex-direction: column; /* Empilha os itens verticalmente */
+    gap: 0.75rem; /* Adiciona espaço entre os itens */
+  }
+
+  .footer-links {
+    gap: 20px; /* Aumenta o espaço entre os links "Github" e "Alura" */
   }
 }
 
