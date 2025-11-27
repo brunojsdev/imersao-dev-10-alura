@@ -5,14 +5,14 @@
 }
 
 :root {
-  --primary-color: #f88989; /* Cor primária (azul claro) */
-  --secondary-color: #e8eaed; /* Cor secundária (cinza claro) */
-  --tertiary-color: #9aa0a6; /* Cor terciária (cinza médio) */
-  --bg-color: #202124; /* Cor de fundo (cinza escuro) */
+  --primary-color: #00ff88; /* Cor primária (azul claro) */
+  --secondary-color: #e8edea; /* Cor secundária (cinza claro) */
+  --tertiary-color: #19f18c; /* Cor terciária (cinza médio) */
+  --bg-color: #2d3b30; /* Cor de fundo (cinza escuro) */
   --strong-color: #e8eaed; /* Nova cor para o texto em destaque */
-  --border-color: #ff0000; /* Cor para as bordas do header e footer */
-  --surface-bg-color: #0f0f0f; /* Cor de fundo para header e footer */
-  --accent-color: #c04040; /* Cor de destaque para hovers */
+  --border-color: #00ff88; /* Cor para as bordas do header e footer */
+  --surface-bg-color: #071d0c; /* Cor de fundo para header e footer */
+  --accent-color: #58fc66; /* Cor de destaque para hovers */
 }
 
 body {
@@ -105,10 +105,10 @@ div input:focus {
 }
 
 .theme-toggle-button {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8ddc4da-23dd-4502-b65b-378c9cfe5efa/dfgb852-b674c834-db71-49ae-9fb7-61e04ac1a9ad.png/v1/fill/w_1280,h_1280/black_pokeball_by_jormxdos_dfgb852-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiIvZi9lOGRkYzRkYS0yM2RkLTQ1MDItYjY1Yi0zNzhjOWNmZTVlZmEvZGZnYjg1Mi1iNjc0YzgzNC1kYjcxLTQ5YWUtOWZiNy02MWUwNGFjMWE5YWQucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.MplSwEcWMMIreITamLaPCdDvLzN1caHz1IUgLNnFM6w");
-  background-size: 80%;
+  background-size: contain; /* Padroniza o dimensionamento da imagem */
   background-position: center;
   background-repeat: no-repeat;
   background-color: transparent;
@@ -126,18 +126,18 @@ div input:focus {
 
 /* Tema Claro */
 body.light-theme {
-  --primary-color: #024dda; /* Azul */
+  --primary-color: #000000; /* Azul */
   --secondary-color: #000000; /* Cinza escuro (texto) */
-  --tertiary-color: #5f6368; /* Cinza médio */
-  --bg-color: #bcd7ff; /* Branco */
+  --tertiary-color: #000000; /* Cinza médio */
+  --bg-color: #eecfb8; /* Branco */
   --strong-color: #000000; /* Preto */
-  --border-color: #3700ff; /* Cinza claro (bordas) */
-  --surface-bg-color: #b6bcee; /* Cinza bem claro */
-  --accent-color: #021a5a; /* Azul mais claro para hover */
+  --border-color: #4e0d01; /* Cinza claro (bordas) */
+  --surface-bg-color: #d34128; /* Cinza bem claro */
+  --accent-color: #ff0000; /* Azul mais claro para hover */
 }
 
 body.light-theme article h2 {
-  color: #4c00ff; /* Vermelho escuro para o título no tema claro */
+  color: #701802; /* Vermelho escuro para o título no tema claro */
 }
 
 main {
@@ -173,7 +173,7 @@ article h2 {
   border-bottom: none; /* Sem borda inferior */
   padding-bottom: 0; /* Sem espaçamento interno inferior */
   margin-bottom: 0.25rem; /* Margem inferior */
-  color: #fc4141; /* Cor do texto */
+  color: #2efd5e; /* Cor do texto */
 }
 
 article p {
@@ -218,7 +218,7 @@ article a:hover {
 }
 
 .footer-location {
-  color: #9aa0a6; /* Cor do texto */
+  color: #a69d9a; /* Cor do texto */
   margin-bottom: 0; /* Margem inferior */
 }
 
@@ -260,9 +260,13 @@ article a:hover {
     font-size: 1.2rem; /* Tamanho da fonte do título */
   }
 
-  .theme-toggle-button,
+  .theme-toggle-button {
+    width: 50px; /* Botão de tema ligeiramente maior */
+    height: 50px;
+  }
+
   #botao-busca {
-    width: 45px; /* DIMINUI E IGUALA O TAMANHO DOS BOTÕES */
+    width: 45px; /* Botão de busca um pouco menor */
     height: 45px;
   }
 
@@ -281,14 +285,14 @@ article a:hover {
 
   .footer {
     position: static; /* Rodapé deixa de ser fixo e rola com a página */
-    padding: 0.5rem 1rem; /* DIMINUI DRASTICAMENTE A ALTURA DO FOOTER */
+    padding: 0.4rem 1rem; /* DIMINUI DRASTICAMENTE A ALTURA DO FOOTER */
     height: auto;
     flex-direction: column; /* Empilha os itens verticalmente */
-    gap: 0.5rem; /* DIMINUI O ESPAÇO ENTRE OS ITENS */
+    gap: 0.6rem; /* DIMINUI O ESPAÇO ENTRE OS ITENS */
   }
 
   .footer-links {
-    gap: 20px; /* Ajusta o espaço entre os links */
+    gap: 30px; /* Ajusta o espaço entre os links */
   }
 }
 
