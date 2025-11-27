@@ -251,7 +251,7 @@ article a:hover {
   header div {
     order: 3; /* Manda a busca para a próxima linha */
     width: 100%; /* Ocupa a largura total */
-    margin-top: 0.75rem; /* Diminui o espaço entre as linhas do header */
+    margin-top: 0.5rem; /* Diminui o espaço entre as linhas do header */
     display: flex; /* Habilita flexbox para alinhar input e botão */
     align-items: center; /* Alinha verticalmente */
   }
@@ -285,14 +285,14 @@ article a:hover {
 
   .footer {
     position: static; /* Rodapé deixa de ser fixo e rola com a página */
-    padding: 0.5rem 1rem; /* Diminui ainda mais a altura do footer */
+    padding: 1rem 1rem; /* Ajusta o padding para um visual mais limpo */
     height: auto;
     flex-direction: column; /* Empilha os itens verticalmente */
-    gap: 0.5rem; /* Diminui o espaço entre o texto e os links */
+    gap: 1rem; /* Aumenta o espaço entre o texto (se houver) e os links */
   }
 
   .footer-links {
-    gap: 25px; /* Aumenta o espaço entre os links "Github" e "Alura" */
+    gap: 30px; /* Aumenta o espaço entre os links "Github" e "Alura" */
   }
 }
 
