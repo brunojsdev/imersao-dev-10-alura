@@ -238,7 +238,7 @@ article a:hover {
 @media (max-width: 768px) {
   header {
     flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
-    justify-content: space-between; /* Alinha os itens nas extremidades */
+    justify-content: center; /* Centraliza os blocos de conteúdo */
     height: auto; /* Altura automática para acomodar os itens */
     padding: 1rem;
   }
@@ -253,23 +253,23 @@ article a:hover {
   }
 
   header h1 {
-    font-size: 1.2rem; /* Reduz um pouco a fonte do título */
+    font-size: 1.1rem; /* Reduz a fonte do título */
+    margin-left: 0.5rem; /* Adiciona um pequeno espaço à esquerda do título */
   }
 
   .theme-toggle-button {
-    width: 50px; /* Diminui o tamanho do botão de tema */
-    height: 50px;
+    width: 45px; /* Diminui o tamanho do botão de tema */
+    height: 45px;
   }
 
   div input {
-    width: 100%; /* Input ocupa o espaço disponível no flex container */
+    flex-grow: 1; /* Faz o input crescer para ocupar o espaço disponível */
     font-size: 1.1rem;
-    margin-right: 0.5rem; /* Adiciona espaço entre o input e o botão */
   }
 
   #botao-busca {
-    width: 45px; /* Diminui o tamanho do botão de busca */
-    height: 45px;
+    width: 40px; /* Diminui o tamanho do botão de busca */
+    height: 40px;
   }
 
   main {
