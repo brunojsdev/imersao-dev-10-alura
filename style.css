@@ -5,14 +5,14 @@
 }
 
 :root {
-  --primary-color: #00ff88; /* Cor primária (azul claro) */
-  --secondary-color: #e8edea; /* Cor secundária (cinza claro) */
-  --tertiary-color: #19f18c; /* Cor terciária (cinza médio) */
-  --bg-color: #2d3b30; /* Cor de fundo (cinza escuro) */
+  --primary-color: #ffffff; /* Cor primária (azul claro) */
+  --secondary-color: #fffdfd; /* Cor secundária (cinza claro) */
+  --tertiary-color: #ffffff; /* Cor terciária (cinza médio) */
+  --bg-color: #3f3f3f; /* Cor de fundo (cinza escuro) */
   --strong-color: #e8eaed; /* Nova cor para o texto em destaque */
-  --border-color: #00ff88; /* Cor para as bordas do header e footer */
-  --surface-bg-color: #071d0c; /* Cor de fundo para header e footer */
-  --accent-color: #58fc66; /* Cor de destaque para hovers */
+  --border-color: #707070; /* Cor para as bordas do header e footer */
+  --surface-bg-color: #181818; /* Cor de fundo para header e footer */
+  --accent-color: #ffffff; /* Cor de destaque para hovers */
 }
 
 body {
@@ -129,11 +129,11 @@ body.light-theme {
   --primary-color: #000000; /* Azul */
   --secondary-color: #000000; /* Cinza escuro (texto) */
   --tertiary-color: #000000; /* Cinza médio */
-  --bg-color: #eecfb8; /* Branco */
+  --bg-color: #f3f3f3; /* Branco */
   --strong-color: #000000; /* Preto */
-  --border-color: #4e0d01; /* Cinza claro (bordas) */
-  --surface-bg-color: #d34128; /* Cinza bem claro */
-  --accent-color: #ff0000; /* Azul mais claro para hover */
+  --border-color: #000000; /* Cinza claro (bordas) */
+  --surface-bg-color: #c2c1c1; /* Cinza bem claro */
+  --accent-color: #000000; /* Azul mais claro para hover */
 }
 
 body.light-theme article h2 {
@@ -150,14 +150,11 @@ main {
 }
 
 article {
-  background: none; /* Sem cor de fundo */
   border-radius: 0; /* Sem bordas arredondadas */
-  padding: 0; /* Remove o padding */
   padding: 0 1rem; /* Espaçamento interno nos lados */
   margin-bottom: 1.25rem; /* Margem inferior */
   box-shadow: none; /* Sem sombra */
   transition: background-color 0.3s ease, border-bottom-color 0.3s ease; /* Transição suave */
-  border-bottom: 1px solid var(--bg-color); /* Borda inferior */
   padding-bottom: 1.5rem; /* Espaçamento interno inferior */
 }
 
@@ -173,7 +170,6 @@ article h2 {
   border-bottom: none; /* Sem borda inferior */
   padding-bottom: 0; /* Sem espaçamento interno inferior */
   margin-bottom: 0.25rem; /* Margem inferior */
-  color: #2efd5e; /* Cor do texto */
 }
 
 article p {
@@ -198,6 +194,250 @@ article a {
 article a:hover {
   color: var(--accent-color); /* Muda a cor do link ao passar o mouse */
   text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* --- Estilos por Tipo de Pokémon --- */
+
+/* Estilo para o tipo Grama */
+.tipo-grama {
+  background-color: #2a3f2b; /* Fundo verde escuro */
+  border-bottom: 1px solid #4caf50; /* Borda verde mais clara */
+}
+
+.tipo-grama h2 {
+  color: #8bc34a; /* Título em tom de verde claro */
+}
+
+.tipo-grama p,
+.tipo-grama a {
+  color: #e8f5e9; /* Texto e links em tom de verde bem claro */
+}
+
+/* Estilo para o tipo Fogo */
+.tipo-fogo {
+  background-color: #701e05; /* Fundo vermelho/marrom escuro */
+  border-bottom: 1px solid #ff7043; /* Borda laranja */
+}
+
+.tipo-fogo h2 {
+  color: #ffab91; /* Título em tom de pêssego */
+}
+
+.tipo-fogo p,
+.tipo-fogo a {
+  color: #fff3e0; /* Texto e links em tom de creme */
+}
+
+/* Estilo para o tipo Água */
+.tipo-água {
+  background-color: #0b3d6e; /* Fundo azul claro */
+  border-bottom: 1px solid #42a5f5; /* Borda azul clara */
+}
+
+.tipo-água h2 {
+  color: #82b1f8; /* Título em azul bem escuro */
+}
+
+.tipo-água p,
+.tipo-água a {
+  color: #d1d4f1; /* Texto e links em azul marinho */
+}
+
+/* Estilo para o tipo Elétrico */
+.tipo-elétrico {
+  background-color: #7c6301; /* Fundo amarelo escuro */
+  border-bottom: 1px solid #fdd835; /* Borda amarela */
+}
+.tipo-elétrico h2 {
+  color: #fff176; /* Título em amarelo claro */
+}
+.tipo-elétrico p,
+.tipo-elétrico a {
+  color: #fffde7; /* Texto e links em creme */
+}
+
+/* Estilo para o tipo Normal */
+.tipo-normal {
+  background-color: #502a2a; /* Fundo cinza neutro escuro */
+  border-bottom: 1px solid #a8a878; /* Borda cinza claro */
+}
+.tipo-normal h2 {
+  color: #e0e0e0; /* Título em branco-gelo */
+}
+.tipo-normal p,
+.tipo-normal a {
+  color: #f5f5f5; /* Texto e links em branco */
+}
+
+/* Estilo para o tipo Gelo */
+.tipo-gelo {
+  background-color: #034b4b; /* Fundo ciano escuro */
+  border-bottom: 1px solid #98d8d8; /* Borda azul-gelo */
+}
+.tipo-gelo h2 {
+  color: #95e8f3; /* Título em ciano bem claro */
+}
+.tipo-gelo p,
+.tipo-gelo a {
+  color: #f0ffff; /* Texto e links em azul-celeste */
+}
+
+/* Estilo para o tipo Psíquico */
+.tipo-psíquico {
+  background-color: #4b233a; /* Fundo magenta escuro */
+  border-bottom: 1px solid #f85888; /* Borda rosa/magenta */
+}
+.tipo-psíquico h2 {
+  color: #f48fb1; /* Título em rosa claro */
+}
+.tipo-psíquico p,
+.tipo-psíquico a {
+  color: #fce4ec; /* Texto e links em rosa bem claro */
+}
+
+/* Estilo para o tipo Sombrio */
+.tipo-sombrio {
+  background-color: #1d1d1d; /* Fundo cinza bem escuro */
+  border-bottom: 1px solid #705848; /* Borda marrom-acinzentado */
+}
+.tipo-sombrio h2 {
+  color: #c7c2d1; /* Título em lavanda pálido */
+}
+.tipo-sombrio p,
+.tipo-sombrio a {
+  color: #e0e0e0; /* Texto e links em cinza claro */
+}
+
+/* Estilo para o tipo Fada */
+.tipo-fada {
+  background-color: #4e2a41; /* Fundo rosa escuro */
+  border-bottom: 1px solid #e999e9; /* Borda rosa claro */
+}
+.tipo-fada h2 {
+  color: #f4c2f4; /* Título em rosa pastel */
+}
+.tipo-fada p,
+.tipo-fada a {
+  color: #fdeff9; /* Texto e links em rosa bem claro */
+}
+
+/* --- Estilos por Tipo de Pokémon (TEMA CLARO) --- */
+
+/* Tema Claro: Grama */
+body.light-theme .tipo-grama {
+  background-color: #c8e6c9; /* Fundo verde pastel */
+  border-bottom-color: #81c784;
+}
+body.light-theme .tipo-grama h2 {
+  color: #2e7d32; /* Título verde escuro */
+}
+body.light-theme .tipo-grama p,
+body.light-theme .tipo-grama a {
+  color: #388e3c; /* Texto verde escuro */
+}
+
+/* Tema Claro: Fogo */
+body.light-theme .tipo-fogo {
+  background-color: #ffccbc; /* Fundo laranja pastel */
+  border-bottom-color: #ff8a65;
+}
+body.light-theme .tipo-fogo h2 {
+  color: #d84315; /* Título laranja escuro */
+}
+body.light-theme .tipo-fogo p,
+body.light-theme .tipo-fogo a {
+  color: #e64a19; /* Texto laranja escuro */
+}
+
+/* Tema Claro: Água */
+body.light-theme .tipo-água {
+  background-color: #b3e5fc; /* Fundo azul pastel */
+  border-bottom-color: #4fc3f7;
+}
+body.light-theme .tipo-água h2 {
+  color: #0277bd; /* Título azul escuro */
+}
+body.light-theme .tipo-água p,
+body.light-theme .tipo-água a {
+  color: #0288d1; /* Texto azul escuro */
+}
+
+/* Tema Claro: Elétrico */
+body.light-theme .tipo-elétrico {
+  background-color: #fff9c4; /* Fundo amarelo pastel */
+  border-bottom-color: #fff176;
+}
+body.light-theme .tipo-elétrico h2 {
+  color: #f9a825; /* Título amarelo escuro */
+}
+body.light-theme .tipo-elétrico p,
+body.light-theme .tipo-elétrico a {
+  color: #a1780f; /* Texto amarelo escuro */
+}
+
+/* Tema Claro: Normal */
+body.light-theme .tipo-normal {
+  background-color: #c5aeae; /* Fundo cinza bem claro */
+  border-bottom-color: #e0e0e0;
+}
+body.light-theme .tipo-normal h2 {
+  color: #815353; /* Título cinza escuro */
+}
+body.light-theme .tipo-normal p,
+body.light-theme .tipo-normal a {
+  color: #613838; /* Texto cinza escuro */
+}
+
+/* Tema Claro: Gelo */
+body.light-theme .tipo-gelo {
+  background-color: #e0f7fa; /* Fundo ciano pastel */
+  border-bottom-color: #80deea;
+}
+body.light-theme .tipo-gelo h2 {
+  color: #00838f; /* Título ciano escuro */
+}
+body.light-theme .tipo-gelo p,
+body.light-theme .tipo-gelo a {
+  color: #0097a7; /* Texto ciano escuro */
+}
+
+/* Tema Claro: Psíquico */
+body.light-theme .tipo-psíquico {
+  background-color: #f8bbd0; /* Fundo rosa pastel */
+  border-bottom-color: #f06292;
+}
+body.light-theme .tipo-psíquico h2 {
+  color: #c2185b; /* Título rosa escuro */
+}
+body.light-theme .tipo-psíquico p,
+body.light-theme .tipo-psíquico a {
+  color: #d81b60; /* Texto rosa escuro */
+}
+
+/* Tema Claro: Sombrio */
+body.light-theme .tipo-sombrio {
+  background-color: #d7ccc8; /* Fundo cinza-amarronzado claro */
+  border-bottom-color: #a1887f;
+}
+body.light-theme .tipo-sombrio h2 {
+  color: #4e342e; /* Título marrom escuro */
+}
+body.light-theme .tipo-sombrio p,
+body.light-theme .tipo-sombrio a {
+  color: #5d4037; /* Texto marrom */
+}
+
+/* Tema Claro: Fada */
+body.light-theme .tipo-fada {
+  background-color: #fce4ec; /* Fundo rosa bem pastel */
+  border-bottom-color: #f48fb1;
+}
+body.light-theme .tipo-fada h2 {
+  color: #ad1457; /* Título magenta escuro */
+}
+body.light-theme .tipo-fada p,
+body.light-theme .tipo-fada a {
+  color: #c2185b; /* Texto magenta */
 }
 
 .footer {

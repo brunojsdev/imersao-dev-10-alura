@@ -49,8 +49,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
     pokemons.forEach((pokemon) => {
       const card = document.createElement("article");
-      card.className = "card";
-      card.innerHTML = `
+
+      // --- AJUSTE PARA ADICIONAR CLASSE DE TIPO ---
+      // Pega o primeiro tipo do Pokémon (ex: "Grama" de "Grama e Venenoso")
+      const primeiroTipo = pokemon.tipo.split(" e ")[0].toLowerCase();
+      // Cria uma classe CSS a partir do tipo (ex: "tipo-grama")
+      const classeTipo = `tipo-${primeiroTipo}`;
+
+      // Adiciona a classe de tipo ao artigo. O artigo terá a classe padrão e a de tipo.
+      card.classList.add(classeTipo);
+
+      card.innerHTML = ` 
         <h2>${pokemon.nome} </h2> 
         <p><strong>Tipo:</strong> ${pokemon.tipo}</p>
         <p><strong>Introdução:</strong> ${pokemon.geração}ª Geração</p>

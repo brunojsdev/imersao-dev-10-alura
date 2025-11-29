@@ -14,7 +14,7 @@ Bem-vindo à Base de Conhecimento Pokémon! Este é um projeto de front-end que 
 
 - **HTML5**: Estrutura semântica da página.
 - **CSS3**: Estilização, layout flexbox, variáveis CSS para temas e media queries para responsividade.
-- **JavaScript (Vanilla)**: Manipulação do DOM, busca de dados (fetch), implementação da funcionalidade de pesquisa e troca de tema.
+- **JavaScript**: Manipulação do DOM, busca de dados (fetch), implementação da funcionalidade de pesquisa e troca de tema.
 - **JSON**: Armazenamento dos dados dos Pokémon.
 
 ## 📂 Estrutura do Projeto
@@ -34,7 +34,7 @@ Como este é um projeto front-end puro, você não precisa de um servidor comple
 
 1.  Clone este repositório:
     ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
+    git clone https://github.com/brunojsdev/imersao-dev-10-alura.git
     ```
 2.  Navegue até o diretório do projeto:
     ```bash
@@ -52,14 +52,6 @@ O design foi construído com foco na simplicidade e usabilidade.
 - **Temas**: O sistema de temas é implementado com variáveis CSS (`:root` e `.light-theme`), permitindo uma troca fácil e eficiente de cores em toda a aplicação.
 - **Ícones**: Os botões de busca e de troca de tema utilizam imagens de Pokébolas, adicionando um toque temático à interface.
 - **Responsividade**: Media queries são usadas para ajustar o layout do cabeçalho, da busca e do rodapé em telas menores (`max-width: 768px` e `max-width: 480px`), garantindo uma boa experiência em dispositivos móveis.
-
-## 🔮 Próximos Passos (Sugestões)
-
-- [ ] Adicionar mais Pokémon ao `data.json`.
-- [ ] Implementar paginação para lidar com uma grande quantidade de dados.
-- [ ] Adicionar filtros por tipo ou geração.
-- [ ] Criar uma página de detalhes para cada Pokémon dentro da própria aplicação.
-- [ ] Adicionar animações e transições para uma experiência mais fluida.
 
 ---
 
