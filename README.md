@@ -1,7 +1,6 @@
 # Projeto da Imersão Alura - Pokédex de Iniciais
 
-**Projeto fictício para fins educacionais e de portfólio.  
-Pokémon é marca registrada de seus respectivos detentores.**
+**_Este projeto foi criado para fins de estudo e prática de desenvolvimento web._**
 
 Bem-vindo à Base de Conhecimento Pokémon! Este é um projeto de front-end que exibe uma lista de Pokémon, permitindo que os usuários pesquisem e visualizem informações detalhadas sobre eles. A interface é limpa, responsiva e inclui um seletor de tema (claro/escuro).
 
@@ -58,8 +57,8 @@ O design foi construído com foco na simplicidade e usabilidade.
 
 ---
 
-_Este projeto foi criado para fins de estudo e prática de desenvolvimento web._
+**Projeto fictício para fins educacionais e de portfólio.  
+Pokémon é marca registrada de seus respectivos detentores.**
 
-_Desenvolvido por Bruno JS._
 
 ---
