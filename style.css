@@ -462,6 +462,11 @@ body.light-theme .tipo-fada a {
   margin-bottom: 0; /* Margem inferior */
 }
 
+.legal-disclaimer {
+  font-weight: 600; /* ou 700 */
+}
+
+
 @media (max-width: 768px) {
   header {
     flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
