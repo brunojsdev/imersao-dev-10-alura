@@ -1,4 +1,4 @@
-# Pokédex - Base de Conhecimento
+# Projeto da Imersão Alura - Pokédex de Iniciais
 
 Bem-vindo à Base de Conhecimento Pokémon! Este é um projeto de front-end que exibe uma lista de Pokémon, permitindo que os usuários pesquisem e visualizem informações detalhadas sobre eles. A interface é limpa, responsiva e inclui um seletor de tema (claro/escuro).
 
