@@ -446,6 +446,9 @@ body.light-theme .tipo-fada a {
   bottom: 0; /* Alinha na parte inferior */
   left: 0; /* Alinha à esquerda */
   width: 100%; /* Largura total */
+
+  z-index: 1000;
+  
   color: var(--tertiary-color); /* Cor do texto */
   background-color: var(--surface-bg-color); /* Cor de fundo */
   padding: 0 10px; /* Espaçamento interno */
