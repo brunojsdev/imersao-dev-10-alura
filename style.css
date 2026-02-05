@@ -462,24 +462,6 @@ body.light-theme .tipo-fada a {
   margin-bottom: 0; /* Margem inferior */
 }
 
-.footer-links {
-  list-style: none; /* Remove os marcadores da lista */
-  display: flex; /* Habilita o layout flexbox */
-  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
-  justify-content: center; /* Centraliza os itens horizontalmente */
-  gap: 15px; /* Espaçamento entre os links */
-}
-
-.footer-links a {
-  color: var(--secondary-color); /* Cor do link */
-  text-decoration: none; /* Remove o sublinhado */
-  transition: color 0.2s; /* Transição suave para a cor */
-}
-
-.footer-links a:hover {
-  color: var(--accent-color); /* Muda a cor do link ao passar o mouse */
-}
-
 @media (max-width: 768px) {
   header {
     flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
@@ -529,10 +511,6 @@ body.light-theme .tipo-fada a {
     height: auto;
     flex-direction: column; /* Empilha os itens verticalmente */
     gap: 0.9rem; /* DIMINUI O ESPAÇO ENTRE OS ITENS */
-  }
-
-  .footer-links {
-    gap: 30px; /* Ajusta o espaço entre os links */
   }
 }
 
