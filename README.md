@@ -58,7 +58,7 @@ O design foi construído com foco na simplicidade e usabilidade.
 ---
 
 **Projeto fictício para fins educacionais e de portfólio.  
-Pokémon é marca registrada de seus respectivos detentores.**
+ A marca Pokémon pertence seus respectivos detentores.**
 
 
 ---
